@@ -56,4 +56,3 @@ group <- result %>%
         group_by(subject,activity) %>%
         summarise_each(funs(mean))
 
-group
